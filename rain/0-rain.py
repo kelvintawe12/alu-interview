@@ -6,7 +6,7 @@ Rain module
 
 def rain(walls):
     """
-    Calculate how much rainwater is retained between wallsegers representing the heights of walls
+    Calculate how much rainwater 
     """
     if not walls or len(walls) < 3:
         return 0
