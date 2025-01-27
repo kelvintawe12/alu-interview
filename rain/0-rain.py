@@ -5,9 +5,7 @@ Rain module
 
 
 def rain(walls):
-    """
-    Calculate how much rainwater 
-    """
+    """Calculate how much rainwater """
     if not walls or len(walls) < 3:
         return 0
 
