@@ -3,15 +3,10 @@
 Rain module
 """
 
+
 def rain(walls):
     """
-    Calculate how much rainwater is retained between walls.
-
-    Args:
-        walls (list): A list of non-negative integers representing the heights of walls.
-
-    Returns:
-        int: Total amount of rainwater retained.
+    Calculate how much rainwater is retained between wallsegers representing the heights of walls
     """
     if not walls or len(walls) < 3:
         return 0
